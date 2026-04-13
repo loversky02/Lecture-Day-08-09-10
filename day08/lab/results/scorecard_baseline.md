@@ -1,5 +1,5 @@
 # Scorecard: baseline_dense
-Generated: 2026-04-13 17:06
+Generated: 2026-04-13 17:49
 Total Questions: 10
 
 ## Summary Statistics
@@ -9,7 +9,7 @@ Total Questions: 10
 | Faithfulness | 4.50/5 | 2 | 5 |
 | Relevance | 4.30/5 | 1 | 5 |
 | Context Recall | 5.00/5 | 5 | 5 |
-| Completeness | 4.00/5 | 1 | 5 |
+| Completeness | 4.10/5 | 1 | 5 |
 
 ## Category Distribution
 
@@ -35,7 +35,7 @@ Total Questions: 10
 | q07 | Access Control | 5 | 5 | 5 | 2 | All claims in the answer are directly supported by... |
 | q08 | HR Policy | 5 | 5 | 5 | 5 | All claims in the answer are directly supported by... |
 | q09 | Insufficient Context | 5 | 1 | None | 1 | Abstain correctly - no hallucination |
-| q10 | Refund | 5 | 2 | 5 | 2 | The answer accurately reflects the lack of informa... |
+| q10 | Refund | 5 | 2 | 5 | 3 | The answer accurately reflects the lack of informa... |
 
 ## Weak Points Analysis
 

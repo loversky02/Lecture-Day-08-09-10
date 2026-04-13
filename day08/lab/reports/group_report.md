@@ -41,7 +41,7 @@ Nhóm đã xây dựng RAG pipeline hoàn chỉnh với 4 sprints:
 
 ### Grounded Prompt
 - **4 quy tắc:** Evidence-only, Abstain, Citation, Short/clear
-- **Kết quả:** Faithfulness 4.60/5, abstain đúng 100% với câu không có docs
+- **Kết quả:** Faithfulness baseline 4.50/5, abstain đúng 100% với câu không có docs
 
 ## 3. Kết quả Evaluation
 
@@ -49,9 +49,9 @@ Nhóm đã xây dựng RAG pipeline hoàn chỉnh với 4 sprints:
 | Metric | Baseline (Dense) | Variant (Hybrid) | Delta |
 |--------|------------------|------------------|-------|
 | Faithfulness | 4.50/5 | 4.30/5 | -0.20 |
-| Answer Relevance | 4.30/5 | 4.50/5 | +0.20 |
+| Answer Relevance | 4.30/5 | 4.40/5 | +0.10 |
 | Context Recall | 5.00/5 | 5.00/5 | 0.00 ✅ |
-| Completeness | 4.00/5 | 4.20/5 | +0.20 |
+| Completeness | 4.10/5 | 4.20/5 | +0.10 |
 
 ### Phân tích chi tiết
 
@@ -61,7 +61,7 @@ Nhóm đã xây dựng RAG pipeline hoàn chỉnh với 4 sprints:
 - Abstain đúng 100% với câu không có docs (q09)
 
 **Điểm mạnh và điểm yếu của Variant (Hybrid):**
-- Tăng Relevance (+0.20) và Completeness (+0.20)
+- Tăng Relevance (+0.10) và Completeness (+0.10)
 - Giảm Faithfulness (-0.20), đặc biệt ở câu alias/access control
 - Ví dụ q07: variant trả lời đúng tên tài liệu nhưng judge đánh dấu có chi tiết chưa được hỗ trợ trực tiếp trong chunk
 

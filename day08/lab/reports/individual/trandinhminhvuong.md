@@ -15,7 +15,7 @@ Trong lab này, tôi chịu trách nhiệm Sprint 4 (Evaluation) và documentati
 
 Thứ hai, implement `run_scorecard()` để chạy tự động 10 test questions, chấm điểm và generate markdown report. Function tích hợp với `rag_answer()` của team, nhận results và chấm theo 4 metrics.
 
-Thứ ba, tôi implement `compare_ab()` để so sánh baseline vs variant, tính delta và export CSV. Sau khi chạy lại đầy đủ bằng `OPENAI_API_KEY` của nhóm, kết quả mới là: Baseline tốt hơn ở Faithfulness (-0.20 cho variant), còn Variant tốt hơn ở Relevance (+0.20) và Completeness (+0.20), Context Recall hòa (5.00/5).
+Thứ ba, tôi implement `compare_ab()` để so sánh baseline vs variant, tính delta và export CSV. Sau khi chạy lại đầy đủ bằng `OPENAI_API_KEY` của nhóm, kết quả mới là: Baseline tốt hơn ở Faithfulness (-0.20 cho variant), còn Variant tốt hơn ở Relevance (+0.10) và Completeness (+0.10), Context Recall hòa (5.00/5).
 
 Cuối cùng, tôi cập nhật documentation cho `docs/architecture.md`, `docs/tuning-log.md` và `reports/group_report.md` để phản ánh đúng cấu hình chạy thật bằng OpenAI embeddings (`text-embedding-3-small`), không còn dùng local embedding.
 

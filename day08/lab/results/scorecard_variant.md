@@ -1,5 +1,5 @@
 # Scorecard: variant_hybrid
-Generated: 2026-04-13 17:08
+Generated: 2026-04-13 17:50
 Total Questions: 10
 
 ## Summary Statistics
@@ -7,7 +7,7 @@ Total Questions: 10
 | Metric | Average Score | Min | Max |
 |--------|--------------|-----|-----|
 | Faithfulness | 4.30/5 | 2 | 5 |
-| Relevance | 4.50/5 | 2 | 5 |
+| Relevance | 4.40/5 | 2 | 5 |
 | Context Recall | 5.00/5 | 5 | 5 |
 | Completeness | 4.20/5 | 2 | 5 |
 
@@ -34,11 +34,11 @@ Total Questions: 10
 | q06 | SLA | 5 | 4 | 5 | 4 | All claims in the answer are directly supported by... |
 | q07 | Access Control | 2 | 4 | 5 | 3 | The answer mentions 'Access Control SOP' which is ... |
 | q08 | HR Policy | 5 | 5 | 5 | 5 | All claims in the answer are directly supported by... |
-| q09 | Insufficient Context | 5 | 5 | None | 3 | All claims in the answer are directly supported by... |
-| q10 | Refund | 5 | 2 | 5 | 2 | The answer accurately reflects the lack of informa... |
+| q09 | Insufficient Context | 5 | 4 | None | 3 | All claims in the answer are directly supported by... |
+| q10 | Refund | 5 | 2 | 5 | 2 | The answer accurately reflects the lack of specifi... |
 
 ## Weak Points Analysis
 
 Questions scoring below 3.5 average:
 
-- **q09** (avg: 3.25): ERR-403-AUTH là lỗi gì và cách xử lý?...
+- **q09** (avg: 3.00): ERR-403-AUTH là lỗi gì và cách xử lý?...
